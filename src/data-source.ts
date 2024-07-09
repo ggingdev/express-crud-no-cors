@@ -44,7 +44,7 @@ AppDataSource.initialize().then(async () => {
 
   const mockUser = new User();
   mockUser.name = '테스트';
-  mockUser.email = 'admin@cloudtype.co.kr';
+  mockUser.email = 'admin@example.com';
   await userRepository.save(mockUser);
 
   console.log('Mock user created');
